@@ -1,7 +1,10 @@
-use std::thread::sleep;
-use std::time::Duration;
+extern crate rand;
 
 mod game;
+mod pieces;
+
+use std::thread::sleep;
+use std::time::Duration;
 
 use game::Game;
 
