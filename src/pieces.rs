@@ -26,6 +26,7 @@ impl PieceGen {
   pub fn next(&mut self) -> Piece {
     let pieces = self.piece_vec();
 
+
     // TODO: come up with a way to make this look good
     let next_piece = pieces[self
       .rng
